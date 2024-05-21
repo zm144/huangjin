@@ -4,7 +4,7 @@ name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   schedule:
-    - cron: '0 */2 * * *'  # 每隔2小时执行一次
+    - cron: '*/5 * * * *'  # 每隔2小时执行一次
   workflow_dispatch:
 jobs:
   Get-gold-price:
